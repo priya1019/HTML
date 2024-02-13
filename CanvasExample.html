@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DEMO
+        </title>
+        <meta charset = "UTF-8">
+        <meta name="description" content="free medical advice">
+        <meta name="keywords" content="tablets, medication">
+        <meta name="author" content="ABC">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <canvas style="border: 2px solid red; background-color: yellow" height="400"; width="500">
+        An alternative text describing what your canvas displays,
+        </canvas>
+        <script>
+            const canvas=document.querySelector('canvas');
+            const ctx=canvas.getContext('2d');
+            ctx.fillStyle = 'green';// property in javascript
+            ctx.fillRect(70,50,100,100);//function x point, y point, width, height
+            ctx.fillStyle='red';
+            ctx.fillText("Hello Graphics",90,30);
+        </script>
+    </body>

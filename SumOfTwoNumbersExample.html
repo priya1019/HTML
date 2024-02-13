@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DEMO
+        </title>
+        <meta charset = "UTF-8">
+        <meta name="description" content="free medical advice">
+        <meta name="keywords" content="tablets, medication">
+        <meta name="author" content="ABC">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!--event of javascript which gets generated when we start giving input in any firld inside form-->
+        <form oninput="addition.value=parseFloat(num1.value)+parseFloat(num2.value)">
+        <input type="number" name="num1" id="n1" value="0">+
+        <input type="number" name="num2" id="n2" value="0">=
+        <output name="addition" id="add1"></output>
+        </form>
+        <!---NaN : Not a Number : 234 + NaN = NaN-->
+        <form onsubmit="event.preventDefault(), addition.value=parseFloat(num1.value)+parseFloat(num2.value)">
+            Enter number 1: <input type="number" name="num1" id="n1" value="0"><br>
+            Enter number 2: <input type="number" name="num2" id="n2" value="0"><br>
+            <input type="submit"><br>
+            <output name="addition" id="add1"></output>
+            </form>
+            <!--event.preventDefault() : to prevent the form getting submitted-->
+    </body>
+
+</html>

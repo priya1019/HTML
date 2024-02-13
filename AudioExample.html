@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DEMO
+        </title>
+        <meta charset = "UTF-8">
+        <meta name="description" content="free medical advice">
+        <meta name="keywords" content="tablets, medication">
+        <meta name="author" content="ABC">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!--own border, own height and width-->
+        <iframe src="TableDemo.html"></iframe>
+                <!--can not put external links directly as access rights violated-->
+        <iframe src="https://www.w3schools.com/html/html5_video.asp"></iframe>
+                <iframe width="619" height="348" src="https://www.youtube.com/embed/U4K7X6YboQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+<br>
+        <a href="List.html" target="ListFrame">Insert ListDemo in iframe below</a>
+        <br>
+        <iframe name="ListFrame"></iframe>
+        <iframe name="ListFrame"></iframe>
+        <!--if iframe have same name then first matching iframe is selected to display contents-->
+        
+        <article>
+            <h3>Rain</h3>
+            <!--all audio controlled will be available with controls attritube-->
+            <!--autoplay: may not work due to human privacy rights-->
+            <!--loop: to replay audio when ended-->
+             <audio autoplay loop controls>
+                 <source src="MyAudio/rain-01.mp3" type="audio/mp3" >
+             </audio>
+        <hr>
+        <audio src="MyAudio/rain-01.mp3" controls></audio>
+        <hr>
+             <video height="300" width="300" controls>
+                 <source src="MyAudio/Cartoon.mp4" type="video/mp4">
+             </video>
+             <video height="300" width="300" controls src="MyAudio/Cartoon.mp4" type="video/mp4"></video>
+    </article>
+    <article>
+        <embed src="https://www.youtube.com/embed/U4K7X6YboQM">
+        
+    </article>
+
+    </body>
+</html>
